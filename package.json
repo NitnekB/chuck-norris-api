@@ -1,0 +1,19 @@
+{
+  "name": "chuck-norris-slack-api",
+  "version": "1.0.0",
+  "description": "Provide chuck norris facts on slack based on chucknorrisfacts api",
+  "main": "index.js",
+  "dependencies": {
+    "@slack/web-api": "^5.6.0",
+    "express": "^4.17.1",
+    "he": "^1.2.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Chuck Norris doesn't need test. Chuck Norris is the test!\" && exit 1"
+  },
+  "author": "quentin buirette",
+  "license": "ISC"
+}
